@@ -4,25 +4,25 @@ _PadelKlub es una aplicación diseñada para simplificar la gestión de turnos e
 
 ### Pre-requisitos 📋
 
-####Crea Vitual Environment
+* Crea Vitual Environment
 	- py -m venv entorno
-	#####Activate 
+* Activate 
 		- entorno/Scripts/activate.bat
 
-####Install Django
+* Install Django
 	- py -m pip install Django
 
-####Install Project
+* Install Project
 	django-admin startproject padel_klub
 
-####Create App Turnos
+* Create App Turnos
 	py manage.py startapp turnos
 
 
 _Herramientas utilizadas para crear el proyecto_
 
 * [Django](https://www.djangoproject.com/) - El framework web usado
-* [Django3W](https://www.w3schools.com/django/index.php) - Usado para crear el proyecto
+* [Django3W](https://www.w3schools.com/django/index.php) - Usado como guía
 
 ## Autores ✒️
 
@@ -31,4 +31,4 @@ _Herramientas utilizadas para crear el proyecto_
 * **Kafu** 
 * **Walter** 
 
-* Gracias 🤓.
+### Gracias 🤓.
