@@ -46,8 +46,9 @@ py manage.py startapp turnos
 
 ```
 
+### Imágen
 
-![](https://tinypic.host/image/P09qc){width='100px'}
+![](https://i.postimg.cc/HWV6fKMc/padel.png){width='100px'}
 
 
 _Herramientas utilizadas para crear el proyecto_
