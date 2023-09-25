@@ -2,7 +2,7 @@
 
 _PadelKlub es una aplicación diseñada para simplificar la gestión de turnos en canchas de pádel. Esta herramienta permitirá a los usuarios reservar fácilmente sus horas de juego, consultar la disponibilidad de canchas, y a los administradores llevar un registro eficiente de las reservas._
 
-### Pre-requisitos 📋
+## Pre-requisitos 📋
 
 * Python Versión
   
@@ -10,7 +10,7 @@ _PadelKlub es una aplicación diseñada para simplificar la gestión de turnos e
 Python 3.11.5
 ```
 
-### Instalación 🔧
+## Instalación 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
@@ -37,7 +37,6 @@ py -m pip install Django
 django-admin startproject padel_klub
 
 ```
-	
 
 * Create App Turnos
   
@@ -46,21 +45,28 @@ py manage.py startapp turnos
 
 ```
 
-### Imágenes
+## Imágenes
 
 
 ![](https://i.postimg.cc/HWV6fKMc/padel.png)
 
 
 
-_Herramientas utilizadas para crear el proyecto_
+_Herramientas y fuentes utilizadas para encarar el proyecto_
 
 
 * [Django](https://www.djangoproject.com/) -
 * [BootstrapCDN](https://www.bootstrapcdn.com/) - 
 * [Django3W](https://www.w3schools.com/django/index.php) - 
-* [Django CRUD with MySQL example](https://www.bezkoder.com/django-crud-mysql-rest-framework/#Setup_new_Django_app_for_Rest_CRUD_Api)) - 
+* [Django CRUD with MySQL example](https://www.bezkoder.com/django-crud-mysql-rest-framework/#Setup_new_Django_app_for_Rest_CRUD_Api) -
 
+
+## Pendientes: 📌
+
+* **Crear BD** 
+* **Crear API**
+* **...**
+  
 
 ## Autores ✒️
 
