@@ -59,7 +59,7 @@ _Herramientas utilizadas para crear el proyecto_
 * [Django](https://www.djangoproject.com/) -
 * [BootstrapCDN](https://www.bootstrapcdn.com/) - 
 * [Django3W](https://www.w3schools.com/django/index.php) - 
-* [Django CRUD with MySQL example](https://www.w3schools.com/django/index.php](https://www.bezkoder.com/django-crud-mysql-rest-framework/#Setup_new_Django_app_for_Rest_CRUD_Api)) - 
+* [Django CRUD with MySQL example](https://www.bezkoder.com/django-crud-mysql-rest-framework/#Setup_new_Django_app_for_Rest_CRUD_Api)) - 
 
 
 ## Autores ✒️
