@@ -47,6 +47,9 @@ py manage.py startapp turnos
 ```
 
 
+![](https://tinypic.host/image/P09qc){width='100px'}
+
+
 _Herramientas utilizadas para crear el proyecto_
 
 * [Django](https://www.djangoproject.com/) - El framework web usado
