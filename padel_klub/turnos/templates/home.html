@@ -1,27 +1,80 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 </head>
 <html>
 <body>
-
-<!-- Bootstrap Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Padel Klub - Turnos</a>
     
-</nav>
+    <main>
+        <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Padel Klub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarsExample01">
+                <ul class="navbar-nav me-auto mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Turnos</a>
+                    </li>
+                </ul>
+                <form role="search">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+            </div>
+        </nav>
 
-<h2>TURNOS</h2>
+    </main>
+<!-- Bootstrap Navbar -->
 
-<ul>
-    {% for x in misturnos %}
-<li>{{ x.cancha }} {{ x.reserva }}</li>
-    {% endfor %}
-</ul>
+<div class="container py-4">
+    
+    <main>
+    <h2 class="display-6 text-center mb-4">Turnos Disponibles</h2>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        {% for x in misturnos %}
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">{{ x.cancha }}</h4>
+            </div>
+            <div class="card-body">
+                <h2 class="card-title pricing-card-title">Disponible</h2>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Asignar turno</button>
+            </div>
+            </div>
+        </div>
+        {% endfor %}
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Cancha N° 3</h4>
+            </div>
+            <div class="card-body">
+                <h2 class="card-title pricing-card-title">No Disponible</h2>
+                <button type="button" class="w-100 btn btn-lg btn-secondary">Reservar</button>
+            </div>
+            </div>
+        </div>
 
+        </div>
 
+        </main>
+
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+        <div class="col-12 col-md text-center">          
+            <small class="d-block mb-3 text-body-secondary">&copy; 2023</small>
+        </div>       
+        </div>
+        </footer>
+        </div>
 
 
 
@@ -31,7 +84,8 @@
 
 <!-- Include Bootstrap JS and jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
