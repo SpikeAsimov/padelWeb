@@ -46,16 +46,21 @@ py manage.py startapp turnos
 
 ```
 
-### Imágen
+### Imágenes
+
 
 ![](https://i.postimg.cc/HWV6fKMc/padel.png)
 
 
+
 _Herramientas utilizadas para crear el proyecto_
 
-* [Django](https://www.djangoproject.com/) - El framework web usado
-* [Django3W](https://www.w3schools.com/django/index.php) - Usado como guía
-* [Django CRUD with MySQL example](https://www.w3schools.com/django/index.php](https://www.bezkoder.com/django-crud-mysql-rest-framework/#Setup_new_Django_app_for_Rest_CRUD_Api)) - Usado como guía
+
+* [Django](https://www.djangoproject.com/) -
+* [BootstrapCDN](https://www.bootstrapcdn.com/) - 
+* [Django3W](https://www.w3schools.com/django/index.php) - 
+* [Django CRUD with MySQL example](https://www.w3schools.com/django/index.php](https://www.bezkoder.com/django-crud-mysql-rest-framework/#Setup_new_Django_app_for_Rest_CRUD_Api)) - 
+
 
 ## Autores ✒️
 
